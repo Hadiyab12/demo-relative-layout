@@ -42,7 +42,7 @@ section{
 }
 
 .fixed{
-    width: 960px;
+    max-width: 960px;
 }
 
 .fixed .box{
@@ -59,4 +59,13 @@ article{
 
 .vw{
     width: 50vw;
+}
+
+.banner{
+    background-color: royalblue;
+    color: #ffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
